@@ -41,3 +41,54 @@
 .container-main{
     background-image: linear-gradient(rgb(40, 39, 39), rgb(220, 220, 219));
 }
+.carousel-container{
+    background-image: linear-gradient(rgb(40, 39, 39), rgb(220, 220, 219));
+}
+#earn{
+    background-image: linear-gradient(to right, rgb(228, 250, 115),rgb(156, 250, 156));
+}
+
+#success{
+    background-image: linear-gradient(to right, rgb(54, 54, 54), rgb(6, 6, 6));
+}
+.img-container {
+    position: relative;
+    text-align: center;
+    /* color: white; */
+  }
+#bottom-left1 {
+    position: absolute;
+    top: 300px;
+    left: 380px;
+    color: white;
+  }
+  #bottom-left2 {
+    position: absolute;
+    top: 300px;
+    left: 780px;
+    color: white;
+  }
+  #bottom-left3 {
+    position: absolute;
+    bottom: 80px;
+    left: 380px;
+    color: white;
+  }
+  #bottom-left4 {
+    position: absolute;
+    bottom: 80px;
+    left: 780px;
+    color: white;
+  }
+  .img-hover-zoom {
+    height: 300px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
